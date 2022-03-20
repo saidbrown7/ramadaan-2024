@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1F5F8;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+}
+
+.ramadan-countdown{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.countdown{
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /* justify-content: space-around; */
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    row-gap: 10px;
+}
+.title-2{
+    font-size: 20;
+}
+
+.sawir{
+    width: 40%;
+    height: 60vh;
+    margin-bottom: 4%;
+    border-radius: 5px;
+
+}
+
+.deadline{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.day, 
+.hour, 
+.minute, 
+.second{
+    background-color: red;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: green; */
+    width: 100%;
+    height: 30px;
+
+}
+
+.followText{
+    color:#003471 ;
+}
+
+.developed{
+    color: #445DED;
+}
+
+.icon{
+
+    width: 15%;
+    background-color: #095256;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.icon a{
+    color: #fff;
+
+}
+
+.icon:hover{
+    color: #fff;
+}
+
+.icon{
+    width: 30px;
+    text-align: center;
+    background-color: #233329;
+    border-radius: 50%;
+    color: #fff;
+
+}
+.icon:hover{
+    background-color: #f49f0a;
+}
+
+@media only screen and (max-width: 600px) {
+    .ramadan-countdown{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sawir{
+        margin-top: 10%;
+        width:90%;
+        height: 200px;
+    }
+
+    .countdown{
+        width:90%;
+
+    }
+    .title{
+        font-size: 10px;
+    }
+    .title-2{
+        font-size: 6px;
+    }
+
+    
+    .deadline{
+        /* display: flex;
+        justify-content:space-between;
+        align-items: center; */
+    }
+
+    .day, 
+    .hour, 
+    .minute, 
+    .second{
+        background-color: red;
+        width: 20%;
+        padding: 5px;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    .deadlineSpan{
+        font-size: 13px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+    .footer{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+    }
+}
+
+/* tablet */
+
+@media only screen and (max-width: 992px) {
+    .ramadan-countdown{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sawir{
+        margin-top: 5%;
+        width:90%;
+        height: 50vh;
+    }
+
+    .countdown{
+        width:90%;
+
+    }
+    .title{
+        font-size: 25px;
+    }
+    .title-2{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 15px;
+    }
+
+    
+    .deadline{
+        /* display: flex;
+        justify-content:space-between;
+        align-items: center; */
+    }
+
+    .day, 
+    .hour, 
+    .minute, 
+    .second{
+        background-color: red;
+        width: 20%;
+        padding: 5px;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    .deadlineSpan{
+        font-size: 13px;
+    }
+    footer{
+        margin-top: 30px;
+    }
+    .footer{
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+    }
+}
