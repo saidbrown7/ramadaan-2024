@@ -1,6 +1,6 @@
 
 function countdown(){
-    let countdate = new Date("apr 2, 2022 6:00:00").getTime();
+    let countdate = new Date("apr 22, 2023 6:00:00").getTime();
     const nowDate = new Date().getTime(); 
     const farqi = countdate - nowDate;
 
